@@ -32,13 +32,16 @@ public class Main {
         f6=MyMath.sub(f1,f2);
         System.out.println(f6.toString());*/
 
-        Rectangle rect=new Rectangle(12,5);
+       /*Rectangle rect=new Rectangle(12,5);
         System.out.println("Diagonale: "+rect.calcDiagonale());
         rect.print();
         rect.setCharacter('+');
         rect.showRectangle();
         rect.setFill(true);
-        rect.showRectangle();
+        rect.showRectangle(); */
+        Bank bank= new Bank("Provident");
+        //System.out.println(bank.convert(520,"USD"));
+        System.out.println(bank.loan(1000, 4.5 , 20 ));
 
     }
 }
